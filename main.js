@@ -1,8 +1,7 @@
-"use strict";
-console.log("hello world");
+//use spread operator
+let poorcountry = ["Bangladesh", "Srilanka"];
+let richCountry = ["China", "United State of Ameracia", "Canada"];
 
-myName();
+richCountry = [...poorcountry, "China", "United State of Ameracia", "Canada" ];
 
-function myName() {
-    name = "Husain Imam";
-}
+console.log(richCountry);
